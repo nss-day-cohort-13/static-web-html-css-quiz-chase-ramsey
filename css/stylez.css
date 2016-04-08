@@ -16,6 +16,7 @@ a {
 
 #wrapper {
 	padding-top: 100px;
+	min-height: calc(100vh - 46px);
 }
 
 article {
@@ -26,6 +27,14 @@ article {
 	border-radius: 10px;
 	height: 450px;
 	box-shadow: 0 4px 4px rgba(0,0,0,.2);
+}
+
+#main-footer {
+	background: #f2f2f2;
+	text-align: center;
+	width: 100%;
+	padding: 15px;
+	margin-top: 20px;
 }
 
 
@@ -74,6 +83,15 @@ nav li {
 }
 
 
+/*-__________ Class styles __________-*/
+
+/* .card_title ==========*/
+
+.card_title {
+	font-size: .7em;
+	margin: 10px;
+	padding: 0;
+}
 
 
 
