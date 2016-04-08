@@ -9,6 +9,7 @@ body {
 	background: #556;
 	font-family: 'Open Sans', sans-serif;
 	color: #2b334f;
+	font-size: .9em;
 }
 
 a {
@@ -26,7 +27,7 @@ article {
 	margin: 20px;
 	background: #f1f3ed;
 	border-radius: 10px;
-	height: 450px;
+	height: 600px;
 	box-shadow: 0 4px 4px rgba(0,0,0,.2);
 }
 
@@ -88,15 +89,24 @@ nav li {
 
 /*-__________ Class styles __________-*/
 
-/* .card_title ==========*/
+/* General ====================*/
 
 .card_title {
-	font-size: .7em;
-	margin: 10px;
+	margin: 0;
 	padding: 0;
+	text-align: center;
+	border-bottom: 1px solid #2b334f;
+	background: #f25f5c;
+	border-radius: 10px 10px 0 0;
 }
 
-/* .product ==========*/
+.card_title h1 {
+	margin: 0;
+	padding: 10px;
+	font-size: 1.2em;
+}
+
+/* .product ====================*/
 
 /* Figure, image, caption */
 
@@ -122,6 +132,12 @@ figcaption {
 	width: 100%;
 }
 
+/* .specs_[name] */
+
+.specs_title h2 {
+	font-size: 1.1em;
+	margin: 5px;
+}
 
 
 
