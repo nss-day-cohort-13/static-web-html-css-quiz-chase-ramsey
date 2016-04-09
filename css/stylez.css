@@ -138,7 +138,21 @@ figcaption {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	padding: 3px;
+	padding: 5px;
+}
+
+figcaption p {
+	display: none;
+	font-size: .8em;
+	font-style: italic;
+}
+
+.fig_hover:hover {
+	height: 35%;
+}
+
+.fig_hover:hover p {
+	display: block;
 }
 
 /* .product_[name] */
