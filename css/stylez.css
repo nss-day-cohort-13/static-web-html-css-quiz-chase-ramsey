@@ -28,7 +28,7 @@ article {
 	background: #f1f3ed;
 	border-radius: 10px;
 	height: 625px;
-	box-shadow: 0 4px 4px rgba(0,0,0,.2);
+	box-shadow: 0 4px 4px 6px rgba(0,0,0,.2);
 }
 
 .clearfix::after {
@@ -79,7 +79,7 @@ article {
 	color: #ace3b3;
 }
 
-.u_logo:hover {
+#main-header a:hover .u_logo {
 	color: #f25f5c;
 }
 
@@ -187,11 +187,8 @@ figcaption p {
 .specs_foot {
 	font-size: .7em;
 	font-style: italic;
-	margin: 2px 5px;
+	margin: 5px;
 }
-
-
-
 
 
 
