@@ -191,9 +191,30 @@ figcaption p {
 }
 
 
+/*-__________ Media queries __________-*/
+
+@media screen and (max-width: 1215px) {
+
+	#wrapper {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	article {
+		width: 47.5%;
+		margin: 20px 0;
+	}
+
+	article:nth-child(2n+2) {
+		float: right;
+	}
+}
+
+@media screen and (max-width: 900px) {
 
 
 
+}
 
 
 
