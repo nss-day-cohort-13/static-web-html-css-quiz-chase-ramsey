@@ -210,6 +210,91 @@ figcaption p {
 	}
 }
 
+@media screen and (max-width: 1000px) {
+
+	body {
+		font-size: .85em;
+	}
+
+	article {
+		width: 48.5%;
+	}
+
+}
+
+@media screen and (max-width: 765px) {
+
+	body {
+		font-size: .95em;
+	}
+
+	article {
+		width: 80%;
+		float: none;
+		clear: both;
+		margin: 20px auto;
+	}
+
+	article:nth-child(2n+2) {
+		float: none;
+	}
+
+	#main-header {
+		text-align: center;
+		padding: 0;
+	}
+
+	#main-header h1 {
+		float: none;
+		clear: both;
+		width: 100%;
+		margin-left: 5px;
+	}
+
+	nav ul {
+		background: #ace3b3;
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	nav li {
+		float: none;
+		display: inline-block;
+		margin: 20px;
+		margin-left: 0px;
+	}
+
+	#main-header li a:hover {
+		color: #2589bd;
+	}
+}
+
+@media screen and (max-width: 635px) {
+
+	article {
+		width: 90%;
+	}
+
+	.specs {
+		float: left;
+		margin-right: 30px;
+	}
+
+	.pricing {
+		float: right;
+		clear: right;
+	}
+
+	figure {
+		width: 280px;
+		height: 157.5px;
+	}
+
+	img {
+		background-size: cover;
+	}
+}
+
 
 
 
