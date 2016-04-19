@@ -176,12 +176,28 @@ figcaption p {
 
 h3 {
 									font-size: 1.1em;
-									margin: 10px 5px;
+									margin: 10px 5px 5px;
 }
 
 .list {
 									margin: 2px 15px 2px;
+									width: 30%;
 									font-size: .9em;
+}
+
+.left {
+									float: left;
+}
+
+.right {
+									float: right;
+}
+
+.left p,
+.right p {
+									display: block;
+									margin: 2px;
+									padding: 0;
 }
 
 .specs_foot {
