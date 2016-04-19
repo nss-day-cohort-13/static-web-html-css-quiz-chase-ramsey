@@ -16,7 +16,7 @@ a {
 									text-decoration: none;
 }
 
-#wrapper {
+.wrapper {
 									padding-top: 80px;
 									min-height: calc(100vh - 46px);
 }
@@ -41,7 +41,7 @@ article {
 									font-weight: 600;
 }
 
-#main-footer {
+.main-footer {
 									background: #f2f2f2;
 									text-align: center;
 									width: 100%;
@@ -52,7 +52,7 @@ article {
 
 /*-__________ Header styles __________-*/
 
-#main-header {
+.main-header {
 									background: #2589bd;
 									margin: 0;
 									padding: 0;
@@ -71,15 +71,15 @@ h1 {
 									float: left;
 }
 
-#main-header a {
+.main-header a {
 									color: #fff;
 }
 
-#main-header a:hover {
+.main-header a:hover {
 									color: #ace3b3;
 }
 
-#main-header a:hover .u_logo {
+.main-header a:hover .u_logo {
 									color: #f25f5c;
 }
 
@@ -211,7 +211,7 @@ h3 {
 
 @media screen and (max-width: 1215px) {
 
-	#wrapper {
+	.wrapper {
 									padding-left: 5%;
 									padding-right: 5%;
 	}
@@ -255,7 +255,7 @@ h3 {
 									float: none;
 	}
 
-	#main-header {
+	.main-header {
 									text-align: center;
 									padding: 0;
 	}
