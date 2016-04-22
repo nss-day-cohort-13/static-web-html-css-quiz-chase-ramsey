@@ -1,97 +1,97 @@
 /*-__________ Top-level styles __________-*/
 
 * {
-									box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-									padding: 0;
-									background: #556;
-									font-family: 'Open Sans', sans-serif;
-									color: #556;
-									font-size: .9em;
+	padding: 0;
+	background: #556;
+	font-family: 'Open Sans', sans-serif;
+	color: #556;
+	font-size: .9em;
 }
 
 a {
-									text-decoration: none;
+	text-decoration: none;
 }
 
 .wrapper {
-									padding-top: 80px;
-									min-height: calc(100vh - 46px);
+	padding-top: 80px;
+	min-height: calc(100vh - 46px);
 }
 
 article {
-									width: 30%;
-									float: left;
-									margin: 20px;
-									background: #f1f3ed;
-									border-radius: 10px;
-									height: 625px;
-									box-shadow: 0 4px 4px 6px rgba(0,0,0,.2);
+	width: 30%;
+	float: left;
+	margin: 20px;
+	background: #f1f3ed;
+	border-radius: 10px;
+	height: 625px;
+	box-shadow: 0 4px 4px 6px rgba(0,0,0,.2);
 }
 
 .clearfix::after {
-									content: "";
-									display: table;
-									clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 
 .strong {
-									font-weight: 600;
+	font-weight: 600;
 }
 
 .main-footer {
-									background: #f2f2f2;
-									text-align: center;
-									width: 100%;
-									padding: 15px;
-									margin-top: 20px;
+	background: #f2f2f2;
+	text-align: center;
+	width: 100%;
+	padding: 15px;
+	margin-top: 20px;
 }
 
 
 /*-__________ Header styles __________-*/
 
 .main-header {
-									background: #2589bd;
-									margin: 0;
-									padding: 0;
-									border-bottom: 3px solid #ace3b3;
-									position: fixed;
-									width: 100%;
-									box-shadow: 0 2px 2px rgba(0,0,0,.2);
-									z-index: 1000;
+	background: #2589bd;
+	margin: 0;
+	padding: 0;
+	border-bottom: 3px solid #ace3b3;
+	position: fixed;
+	width: 100%;
+	box-shadow: 0 2px 2px rgba(0,0,0,.2);
+	z-index: 1000;
 }
 
 h1 {
-									margin: 20px;
-									font-weight: bold;
-									font-size: 2em;
-									color: #fff;
-									float: left;
+	margin: 20px;
+	font-weight: bold;
+	font-size: 2em;
+	color: #fff;
+	float: left;
 }
 
 .main-header a {
-									color: #fff;
+	color: #fff;
 }
 
 .main-header a:hover {
-									color: #ace3b3;
+	color: #ace3b3;
 }
 
 .main-header a:hover .u_logo {
-									color: #f25f5c;
+	color: #f25f5c;
 }
 
 nav ul {
-									list-style-type: none;
-									font-size: 1.5em;
-									margin: 0;
+	list-style-type: none;
+	font-size: 1.5em;
+	margin: 0;
 }
 
 nav li {
-									margin: 20px 50px;
-									float: right;
+	margin: 20px 50px;
+	float: right;
 }
 
 
@@ -100,18 +100,18 @@ nav li {
 /* General ====================*/
 
 .card_title {
-									margin: 0;
-									padding: 0;
-									text-align: center;
-									border-bottom: 1px solid #2b334f;
-									background: #f25f5c;
-									border-radius: 10px 10px 0 0;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	border-bottom: 1px solid #2b334f;
+	background: #f25f5c;
+	border-radius: 10px 10px 0 0;
 }
 
 h2 {
-									margin: 0;
-									padding: 10px;
-									font-size: 1.2em;
+	margin: 0;
+	padding: 10px;
+	font-size: 1.2em;
 }
 
 /* .product ====================*/
@@ -119,91 +119,91 @@ h2 {
 /* Figure, image, caption */
 
 figure {
-									width: 320px;
-									height: 180px;
-									margin: 20px auto;
-									padding: 0;
-									position: relative;
+	width: 320px;
+	height: 180px;
+	margin: 20px auto;
+	padding: 0;
+	position: relative;
 }
 
 .card_img {
-									width: 100%;
-									height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
 figcaption {
-									background: rgba(37,137,189,.5);
-									color: #fff;
-									font-weight: 300;
-									position: absolute;
-									bottom: 0;
-									width: 100%;
-									padding: 5px;
+	background: rgba(37,137,189,.5);
+	color: #fff;
+	font-weight: 300;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 5px;
 }
 
 figcaption p {
-									display: none;
-									font-size: .8em;
-									font-style: italic;
+	display: none;
+	font-size: .8em;
+	font-style: italic;
 }
 
 .fig_hover:hover {
-									height: 35%;
+	height: 35%;
 }
 
 .fig_hover:hover p {
-									display: block;
+	display: block;
 }
 
 /* .product_[name] */
 
 .product_desc p {
-									margin: 10px;
-									text-align: justify;
-									font-size: .9em;
+	margin: 10px;
+	text-align: justify;
+	font-size: .9em;
 }
 
 .product_avail_logo {
-									width: 100%;
-									background: #2589bd;
-									color: #fff;
-									text-align: center;
-									padding: 5px;
-									font-weight: 600;
+	width: 100%;
+	background: #2589bd;
+	color: #fff;
+	text-align: center;
+	padding: 5px;
+	font-weight: 600;
 }
 
 /* .specs ==================== */
 
 h3 {
-									font-size: 1.1em;
-									margin: 10px 5px 5px;
+	font-size: 1.1em;
+	margin: 10px 5px 5px;
 }
 
 .list {
-									margin: 2px 15px 2px;
-									width: 30%;
-									font-size: .9em;
+	margin: 2px 15px 2px;
+	width: 30%;
+	font-size: .9em;
 }
 
 .left {
-									float: left;
+	float: left;
 }
 
 .right {
-									float: right;
+	float: right;
 }
 
 .left p,
 .right p {
-									display: block;
-									margin: 2px;
-									padding: 0;
+	display: block;
+	margin: 2px;
+	padding: 0;
 }
 
 .specs_foot {
-									font-size: .7em;
-									font-style: italic;
-									margin: 5px;
+	font-size: .7em;
+	font-style: italic;
+	margin: 5px;
 }
 
 
@@ -212,28 +212,28 @@ h3 {
 @media screen and (max-width: 1215px) {
 
 	.wrapper {
-									padding-left: 5%;
-									padding-right: 5%;
+		padding-left: 5%;
+		padding-right: 5%;
 	}
 
 	article {
-									width: 47.5%;
-									margin: 20px 0;
+		width: 47.5%;
+		margin: 20px 0;
 	}
 
 	article:nth-child(2n+2) {
-									float: right;
+		float: right;
 	}
 }
 
 @media screen and (max-width: 1000px) {
 
 	body {
-									font-size: .85em;
+		font-size: .85em;
 	}
 
 	article {
-									width: 48.5%;
+		width: 48.5%;
 	}
 
 }
@@ -241,78 +241,72 @@ h3 {
 @media screen and (max-width: 765px) {
 
 	body {
-									font-size: .95em;
+		font-size: .95em;
 	}
 
 	article {
-									width: 80%;
-									float: none;
-									clear: both;
-									margin: 20px auto;
+		width: 80%;
+		float: none;
+		clear: both;
+		margin: 20px auto;
 	}
 
 	article:nth-child(2n+2) {
-									float: none;
+		float: none;
 	}
 
 	.main-header {
-									text-align: center;
-									padding: 0;
+		text-align: center;
+		padding: 0;
 	}
 
 	h1 {
-									float: none;
-									clear: both;
-									width: 100%;
-									margin-left: 5px;
+		float: none;
+		clear: both;
+		width: 100%;
+		margin-left: 5px;
 	}
 
 	nav ul {
-									background: #ace3b3;
-									margin: 0 auto;
-									width: 100%;
+		background: #ace3b3;
+		margin: 0 auto;
+		width: 100%;
 	}
 
 	nav li {
-									float: none;
-									display: inline-block;
-									margin: 20px;
-									margin-left: 0;
+		float: none;
+		display: inline-block;
+		margin: 20px;
+		margin-left: 0;
 	}
 
 	#main-header li a:hover {
-									color: #2589bd;
+		color: #2589bd;
 	}
 }
 
 @media screen and (max-width: 635px) {
 
 	article {
-									width: 90%;
+		width: 90%;
 	}
 
 	.specs {
-									float: left;
-									margin-right: 30px;
+		float: left;
+		margin-right: 30px;
 	}
 
 	.pricing {
-									float: right;
-									clear: right;
+		float: right;
+		clear: right;
 	}
 
 	figure {
-									width: 280px;
-									height: 157.5px;
+		width: 280px;
+		height: 157.5px;
 	}
 
 	img {
-									background-size: cover;
+		background-size: cover;
 	}
 }
-
-
-
-
-
-
